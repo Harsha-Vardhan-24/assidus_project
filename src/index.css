@@ -1,6 +1,7 @@
-html, body {
+html,
+body {
   margin: 0;
-  font-family: 'Montserrat', sans-serif;
+  font-family: "Montserrat", sans-serif;
   background-color: rgb(229, 229, 229);
 }
 
@@ -27,7 +28,7 @@ header {
   flex-direction: column;
   height: 100vh;
   background-color: white;
-  width: 250px;
+  width: 450px;
 }
 
 .section {
@@ -61,8 +62,9 @@ header {
   padding: 1em;
 }
 
-.charts > .chart {
-  background-color: red;
-  height: 200px;
-  width: 300px;
+.chart {
+  background-color: white;
+  height: 400px;
+  width: 600px;
+  /* padding: 1em; */
 }
